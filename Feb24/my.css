@@ -1,0 +1,40 @@
+
+body{
+    margin:0px;
+}
+header{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+}
+span{
+    margin-left: 40px;
+}
+.Social{
+    float: right;
+    margin-top: 15px;
+    margin-left: 50%;
+}
+a{
+    margin-left: 20px;
+}
+.Images{
+    background-image: url("https://s3-us-east-2.amazonaws.com/maryville/wp-content/uploads/2020/01/20133422/software-developer-coding.jpg");
+  width:600px;
+  height: 600px;
+  background-size: cover;
+}
+.Images:hover{
+background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--V0ekZaVJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/h68x0up43hmknl5tjcww.jpg");
+    width:600px;
+  height: 600px;
+  background-size: cover;
+}
+.About{
+    float: right;
+    
+ margin-left: 10%;
+}
+hr{
+    font-weight: bolder;
+}

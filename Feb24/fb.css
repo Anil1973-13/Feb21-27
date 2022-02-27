@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+
+header{
+    border-style: solid;
+    border-color: grey;
+    border-radius: 3px;
+    display: flex;
+    display: inline-block;
+    background-color: antiquewhite;
+    
+}
+.icons{
+    float:right;
+    margin-left: 50px;
+    
+}
+span{
+    margin: 3px;
+}
+.chats{
+    border-style: solid;
+    border-color: grey;
+    border-radius: 3px;
+    display:flex;
+    display: inline-block;
+    float: right;
+    margin-top: 280px;
+}
+section{
+    overflow: scroll;
+    
+}
+p:nth-child(2n){
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    left: 70px;
+}
+p:nth-child(2n+1){
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+p{
+    border-style: solid;
+    border-color: pink;
+    border-width: 2px;
+    width: fit-content;
+}
+.name{
+    font-weight: bold;
+}
