@@ -1,0 +1,18 @@
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+form{
+    border-style:  solid;
+    border-color: beige;
+   box-shadow: 10px 10px #888888;
+    text-align: center;
+    background-color: #477a5a;
+
+}
+.main{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
